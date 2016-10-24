@@ -4,13 +4,13 @@
 import sys, pygame
 pygame.init()
 
-size = width, height = 320, 240
+size = width, height = 2048, 1028
 speed = [2, 2]
 black = 0, 0, 0
 
 screen = pygame.display.set_mode(size)
 
-ball = pygame.image.load("ball.jpeg")
+ball = pygame.image.load("football.png")
 ballrect = ball.get_rect()
 
 while 1:
